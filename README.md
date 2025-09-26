@@ -20,9 +20,13 @@ Frequência (F): quantidade de contratações nos últimos 12 meses.
 1. Preparação dos Dados
 
 Construção das variáveis RFM.
+
 Aplicação de transformações estatísticas:
+
 Box-Cox: variáveis positivas.
+
 Yeo-Johnson: variáveis com valores zero/negativos.
+
 Padronização com StandardScaler.
 
 2. Clusterização – HDBSCAN
