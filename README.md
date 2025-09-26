@@ -17,6 +17,7 @@ Frequência (F): quantidade de contratações nos últimos 12 meses.
 
 
 🛠️ Metodologia
+
 1. Preparação dos Dados
 
 Construção das variáveis RFM.
@@ -32,17 +33,25 @@ Padronização com StandardScaler.
 2. Clusterização – HDBSCAN
 
 Utilizou-se o algoritmo HDBSCAN (Hierarchical Density-Based Spatial Clustering of Applications with Noise), que:
+
 Executa DBSCAN em múltiplos valores de epsilon e integra os resultados.
+
 Encontra clusters com densidades variadas.
+
 É mais robusto na presença de ruído e menos sensível a parâmetros do que o DBSCAN.
 
 📊 Resultados
 
 Número de clusters: 5
+
 Tamanho dos clusters: [2485, 3816, 827, 1689, 1785]
+
 Ruído identificado: 13 clientes
+
 Métricas de avaliação:
+
 Silhouette Score → 0.67 (boa separação)
+
 Davies-Bouldin → 0.74 (baixo, indicando coesão dos clusters)
 
 Calinski-Harabasz → 45.970 (alto, clusters bem definidos)
