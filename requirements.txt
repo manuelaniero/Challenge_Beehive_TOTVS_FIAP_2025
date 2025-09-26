@@ -1,0 +1,7 @@
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.2
+hdbscan==0.8.36
+matplotlib==3.9.2
+seaborn==0.13.2
+oracledb==2.3.0
