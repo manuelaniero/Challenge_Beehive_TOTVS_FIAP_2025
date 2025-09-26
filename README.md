@@ -1,4 +1,5 @@
-📊 Desafio TOTVS – Clusterização de Clientes com RFM e HDBSCAN
+📊 Desafio TOTVS – Clusterização de Clientes com RFM e HDBSCAN   - 🐝Beehive
+
 🎯 Desafio
 
 O desafio foi proposto pela TOTVS com o objetivo de clusterizar clientes a partir de variáveis comportamentais e contratuais, de forma a apoiar a jornada do cliente e possibilitar ações estratégicas de marketing, fidelização e retenção.
