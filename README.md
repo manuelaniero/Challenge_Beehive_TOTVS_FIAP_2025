@@ -10,7 +10,9 @@ A segmentação RFM (Recência, Frequência, Monetário) é uma técnica de ranq
 📊 Critérios Utilizados na Clusterização
 
 Monetário (M): MRR do cliente nos últimos 12 meses.
+
 Recência (R): data da última assinatura de contrato (cliente mais recente).
+
 Frequência (F): quantidade de contratações nos últimos 12 meses.
 
 
